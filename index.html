@@ -18,14 +18,14 @@
     <!-- header section -->
     <header class="h-25 p-2">
       <div class="container p-2">
-        <div class="row justify-content-lg-between align-items-center">
+        <div class="row justify-content-md-between align-items-center">
           <div class="col-md-5 d-flex gap-2">
             <i class="bi bi-linkedin"></i>
             <i class="bi bi-facebook"></i>
             <i class="bi bi-google"></i>
           </div>
 
-          <div class="col-md-6 d-flex justify-content-lg-end">
+          <div class="col-md-6 d-flex justify-content-md-end">
             <div class="me-3">
               <i class="bi bi-envelope text-primary"></i>
               <span class="info ms-1"> info@docmed.com </span>
@@ -194,7 +194,6 @@
         </div>
       </div>
     </div>
-
     <!-- Welcome to Docmed section -->
     <div class="welcome-docmed mt-5 vh-100">
       <div class="container">
@@ -223,7 +222,6 @@
         </div>
       </div>
     </div>
-
     <!-- Department section -->
     <div class="department mt-4">
       <div class="container pt-5 text-center">
@@ -313,6 +311,76 @@
         </div>
       </div>
     </div>
+
+    <!-- Slider section -->
+    <div
+      class="slider-section bg-primary vh-100 position-relative d-flex align-items-center justify-content-center"
+    >
+      <div id="carouselExample" class="carousel slide position-relative w-100">
+        <div class="carousel-inner vh-100">
+          <div class="carousel-item active h-100">
+            <img
+              src="./images/2 (2).png"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item h-100">
+            <img
+              src="./images/1 (2).png"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item h-100">
+            <img
+              src="./images/1 (2).png"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+          style="left: 10%"
+        >
+          <span
+            class="carousel-control-prev-icon p-4 rounded-1 btn btn-outline-primary"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+          style="right: 10%"
+        >
+          <span
+            class="carousel-control-next-icon p-4 rounded-1 btn btn-outline-primary"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div
+          class="carousel-caption position-absolute top-50 start-50 translate-middle text-center text-white"
+        >
+          <h1>
+            <i class="bi bi-quote" style="font-size: 96px; color: white"></i>
+          </h1>
+          <p>
+            Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor
+          </p>
+        </div>
+      </div>
+    </div>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
   </body>

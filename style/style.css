@@ -27,7 +27,7 @@ nav.navbar {
 }
 
 nav.navbar.show {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
   position: sticky;
   top: 0;
   left: 0;
@@ -206,7 +206,6 @@ i:hover {
 }
 
 .department .d {
-  height: 400px !important;
   margin-bottom: 20px;
 }
 .department .d img {
@@ -218,7 +217,6 @@ i:hover {
   -o-transition: all 0.3s ease-in-out;
 }
 .department .d .card-body {
-  height: 150px;
   background-color: green;
 }
 .department .d:hover img {
@@ -234,6 +232,28 @@ i:hover {
   text-decoration: underline;
 }
 
-.col-lg-4 {
-  width: calc((100% - 100px) / 3);
+/* .col-lg-4 {
+  width: calc((100% - 40px) / 3);
+} */
+
+.slider-section .carousel-item {
+  position: relative;
+}
+.slider-section .carousel-item img {
+  object-fit: cover;
+  /* height: 100% !important; */
+}
+.slider-section .carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#carouselExample .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border: 2px solid white;
 }
