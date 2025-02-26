@@ -14,7 +14,25 @@ body {
 }
 
 header {
-  background-color: #f5fbff;
+  background-color: rgba(245, 251, 255);
+}
+
+nav.navbar {
+  /* background-color: rgba(255, 255, 255, 0.5);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%; */
+}
+
+nav.navbar.show {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
 }
 
 i {
@@ -92,6 +110,18 @@ i:hover {
   background-color: #83c4ff;
 }
 
+.services .container a {
+  text-decoration: none;
+  border-color: white;
+  color: white;
+}
+
+.services .container a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #009dff;
+}
+
 .card-body i {
   font-size: 50px;
   color: white;
@@ -120,7 +150,7 @@ i:hover {
   position: absolute;
   top: 100px;
   right: 30px;
-  z-index: 100;
+  z-index: 10;
 }
 @media (max-width: 768px) {
   .welcome-docmed .images img:nth-child(2) {
@@ -170,4 +200,40 @@ i:hover {
   left: -30px;
   top: 0;
   color: #009dff;
+}
+.department {
+  background-color: #f5fbff;
+}
+
+.department .d {
+  height: 400px !important;
+  margin-bottom: 20px;
+}
+.department .d img {
+  height: 250px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.department .d .card-body {
+  height: 150px;
+  background-color: green;
+}
+.department .d:hover img {
+  transform: scale(1.1);
+}
+
+.card-body a {
+  text-decoration: none;
+  color: #b0e4f9;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+.col-lg-4 {
+  width: calc((100% - 100px) / 3);
 }
