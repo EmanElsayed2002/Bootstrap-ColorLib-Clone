@@ -260,3 +260,89 @@ i:hover {
 .carousel-control-next-icon {
   border: 2px solid white;
 }
+
+.nav-tabss {
+  background-color: #f5fbff;
+}
+#hospital {
+  background-color: #009dff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: white;
+  width: 80px !important;
+  height: 80px !important;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  /* line-height: 30px; */
+}
+
+#expert-doctor {
+  width: 100%;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+
+#contentExpert:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#contentExpert:hover .card-body {
+  transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+}
+
+#contentExpert:hover .card-body {
+  background-color: #78bcfb;
+  color: white;
+}
+
+/* .Expert .container #cardd {
+  background-color: #f5fbff;
+} */
+
+#layer {
+  position: relative;
+}
+#layer::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 157, 255, 0.4);
+  z-index: 100;
+}
+
+.content-contact img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+#layer .content-contact {
+  z-index: 1000 !important;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  /* left: 15%; */
+}
+
+.content-dept ul li:hover a {
+  color: #009dff !important;
+}

@@ -314,7 +314,7 @@
 
     <!-- Slider section -->
     <div
-      class="slider-section bg-primary pt-5 position-relative d-flex align-items-center justify-content-center"
+      class="slider-section bg-primary pt-5 position-relative d-flex align-items-center justify-content-center pb-0 mb-0"
     >
       <div id="carouselExample" class="carousel slide position-relative w-100">
         <div class="carousel-inner vh-100">
@@ -380,7 +380,372 @@
         </div>
       </div>
     </div>
+    <!-- Nav tabs -->
+    <div class="nav-tabss">
+      <div class="container">
+        <!-- Nav tabs -->
+        <div>
+          <ul
+            class="nav nav-tabs nav nav-tabs d-flex justify-content-between border border-0"
+            id="myTab"
+            role="tablist"
+          >
+            <li class="nav-item col-4" role="presentation">
+              <button
+                class="nav-link active w-100 p-4 h-100 border border-0"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+              >
+                Home
+              </button>
+            </li>
+            <li class="nav-item col-4" role="presentation">
+              <button
+                class="nav-link w-100 p-4 h-100 border border-0"
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                Profile
+              </button>
+            </li>
+            <li class="nav-item col-4" role="presentation">
+              <button
+                class="nav-link w-100 p-4 h-100 border border-0"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+              >
+                Contact
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
 
+      <!-- Tab content -->
+      <div class="bg-white">
+        <div class="container">
+          <div class="tab-content bg-white">
+            <!-- Home Tab -->
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              <div class="d-flex flex-row flex-wrap justify-content-between">
+                <div
+                  class="p-3 d-flex flex-column col-12 col-md-6 col-lg-5 mt-5 ms-3"
+                >
+                  <i class="bi bi-hospital text-white p-3" id="hospital"></i>
+                  <h3>Welcome to the Home Tab</h3>
+                  <p
+                    class="lead w-75"
+                    style="color: #727272; line-height: 28px; margin-bottom: 0"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quae numquam.
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5">
+                  <img
+                    src="./images/1 (1).png"
+                    class="img-fluid w-100 border border-0 d-flex justify-content-end mt-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile Tab -->
+            <div
+              class="tab-pane fade"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              <div class="d-flex flex-row flex-wrap justify-content-between">
+                <div
+                  class="p-3 d-flex flex-column col-12 col-md-6 col-lg-5 mt-5 ms-3"
+                >
+                  <i class="bi bi-hospital text-white p-3" id="hospital"></i>
+                  <h3>Welcome to the Home Tab</h3>
+                  <p
+                    class="lead w-75"
+                    style="color: #727272; line-height: 28px; margin-bottom: 0"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quae numquam.
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5">
+                  <img
+                    src="./images/1 (1).png"
+                    class="img-fluid w-100 border border-0 d-flex justify-content-end mt-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Tab -->
+            <div
+              class="tab-pane fade"
+              id="contact"
+              role="tabpanel"
+              aria-labelledby="contact-tab"
+            >
+              <div class="d-flex flex-row flex-wrap justify-content-between">
+                <div
+                  class="p-3 d-flex flex-column col-12 col-md-6 col-lg-5 mt-5 ms-3"
+                >
+                  <i class="bi bi-hospital text-white p-3" id="hospital"></i>
+                  <h3>Welcome to the Home Tab</h3>
+                  <p
+                    class="lead w-75"
+                    style="color: #727272; line-height: 28px; margin-bottom: 0"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quae numquam.
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5">
+                  <img
+                    src="./images/1 (1).png"
+                    class="img-fluid w-100 border border-0 d-flex justify-content-end mt-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <div class="Expert vh-100">
+      <div class="container">
+        <h3>Expert Doctors</h3>
+        <div class="row d-flex flex-row flex-wrap">
+          <div class="col-3" id="contentExpert">
+            <div id="expert-doctor">
+              <img
+                src="./images/4 (1).png"
+                class="w-100 card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body text-center pb-3">
+              <h3>Eman Elsayed</h3>
+              <p class="card-text lead text-secondary">Neurologist</p>
+            </div>
+          </div>
+          <div class="col-3" id="contentExpert">
+            <div id="expert-doctor">
+              <img
+                src="./images/4 (1).png"
+                class="w-100 card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body text-center pb-3">
+              <h3>Eman Elsayed</h3>
+              <p class="card-text lead text-secondary">Neurologist</p>
+            </div>
+          </div>
+          <div class="col-3" id="contentExpert">
+            <div id="expert-doctor">
+              <img
+                src="./images/4 (1).png"
+                class="w-100 card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body text-center pb-3">
+              <h3>Eman Elsayed</h3>
+              <p class="card-text lead text-secondary">Neurologist</p>
+            </div>
+          </div>
+          <div class="col-3" id="contentExpert">
+            <div id="expert-doctor">
+              <img
+                src="./images/4 (1).png"
+                class="w-100 card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body pb-3 text-center">
+              <h3>Eman Elsayed</h3>
+              <p class="card-text lead" style="color: gray">Neurologist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container-fluid">
+        <div class="row" id="layer">
+          <div class="col-6 m-0 p-0 position-relative">
+            <img src=" ./images/emergency-1.png" class="img-fluid" alt="" />
+            <div
+              class="content-contact w-100 d-flex flex-row text-white justify-content-evenly"
+            >
+              <div class="text col-6">
+                <h3 style="font-size: 24px">For Any Emergency Contact</h3>
+                <p>Esteem spirit temper too say adieus.</p>
+              </div>
+              <div class="info-contact col-4">
+                <p
+                  class="border border-2 rounded p-2 btn btn-outline-primary text-white"
+                >
+                  +103 234 567 678
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 m-0 p-0 position-relative">
+            <img src="./images/emergency-2.png" class="img-fluid" alt="" />
+            <div
+              class="content-contact w-100 d-flex flex-row text-white justify-content-evenly"
+            >
+              <div class="text col-6">
+                <h3 style="font-size: 24px">position-relative</h3>
+                <p>Esteem spirit temper too say adieus.</p>
+              </div>
+              <div class="info-contact col-4">
+                <p
+                  class="border border-2 rounded p-2 btn btn-outline-primary text-white"
+                >
+                  Make an appointment
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer bg-dark">
+      <div class="container">
+        <div class="pt-5 d-flex flex-row flex-wrap">
+          <div class="logo col-3">
+            <img src="./images/logo (1).png" alt="" />
+            <p class="text-white w-100 lead mt-4">
+              Firmament morning sixth subdue darkness creeping gathered divide.
+            </p>
+            <div class="d-flex flex-row flex-wrap gap-3">
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-google"></i>
+            </div>
+          </div>
+          <div class="content-dept text-white col-3">
+            <h3>Departments</h3>
+            <ul class="list-unstyled mt-4">
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="content-dept text-white col-3">
+            <h3>Departments</h3>
+            <ul class="list-unstyled mt-4">
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="content-dept text-white col-3">
+            <h3>Departments</h3>
+            <ul class="list-unstyled mt-4">
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+              <li class="p-2">
+                <a href="" class="text-decoration-none" style="color: gray"
+                  >Eye Skin</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
   </body>
